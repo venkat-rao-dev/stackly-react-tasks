@@ -1,0 +1,43 @@
+
+.intro-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #dbeafe, #e0e7ff);
+}
+
+.intro-card {
+  width: 100%;
+  max-width: 700px;
+  padding: 35px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.intro-card h1 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+.intro-card h2 {
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.intro-card p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.intro-card h3 {
+  color: #2563eb;
+  text-align: center;
+  margin-top: 25px;
+}
