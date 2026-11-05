@@ -14,13 +14,12 @@ return (
     </p>
 
     <p>
-        I have completed my B.Tech degree in 2026.
+        I have completed my B.Tech degree in 2024.
     </p>
 
     <p>
-        I have knowledge of HTML, CSS, JavaScript,
-        Java, MySQL, and Git & GitHub. I am also
-        learning React.js.
+        I have knowledge of HTML, CSS, JavaScript, React.js, 
+        Java, MySQL, and Git & GitHub.
     </p>
 
     <p>
