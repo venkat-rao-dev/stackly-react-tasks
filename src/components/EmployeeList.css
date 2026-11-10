@@ -1,0 +1,50 @@
+.employee-section {
+  padding: 20px;
+}
+
+.employee-section h2 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.employee-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.employee-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 4px solid #2563eb;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card h3 {
+  color: #1d4ed8;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.employee-card p {
+  color: #475569;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .employee-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .employee-container {
+    grid-template-columns: 1fr;
+  }
+}
