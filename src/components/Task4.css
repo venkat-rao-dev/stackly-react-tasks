@@ -1,0 +1,115 @@
+.task4-container {
+  min-height: 100vh;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+  background-color: #f1f5f9;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.task4-container h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.theme-section {
+  margin-bottom: 30px;
+}
+
+.theme-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.counter-card {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .counter-card {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+.counter-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.counter-value {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.task4-container button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.theme-button {
+  background-color: #334155;
+  color: white;
+}
+
+.increment-button {
+  background-color: #16a34a;
+  color: white;
+}
+
+.decrement-button {
+  background-color: #dc2626;
+  color: white;
+}
+
+.reset-button {
+  background-color: #64748b;
+  color: white;
+}
+
+.task4-container button:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 500px) {
+  .task4-container h1 {
+    font-size: 22px;
+  }
+
+  .counter-value {
+    font-size: 48px;
+  }
+
+  .counter-buttons {
+    flex-direction: column;
+  }
+
+  .counter-buttons button {
+    width: 100%;
+  }
+}
