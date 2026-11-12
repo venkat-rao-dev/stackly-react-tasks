@@ -2,6 +2,7 @@ import SelfIntroduction from "./components/SelfIntroduction";
 import UserCard from "./components/UserCard";
 import Task3 from "./components/Task3";
 import Task4 from "./components/Task4";
+import Task5 from "./components/Task5";
 
 function App() {
   const users = [
@@ -71,6 +72,9 @@ function App() {
 
       {/* Task 4 */}
       <Task4 />
+
+      {/* Task 5 */}
+      <Task5 />
     </div>
   );
 }
