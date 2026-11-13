@@ -1,0 +1,91 @@
+.task6-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+  background-color: #f4f6f9;
+}
+
+.xo-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.xo-card h1 {
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.xo-subtitle {
+  margin-top: 0;
+  color: #777;
+}
+
+.xo-status {
+  margin: 20px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.xo-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.xo-cell {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: 2px solid #d7dce5;
+  border-radius: 10px;
+  background-color: #f8f9fc;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.xo-cell:hover:enabled {
+  background-color: #e9efff;
+}
+
+.xo-cell:disabled {
+  cursor: not-allowed;
+}
+
+.x-cell {
+  color: #2563eb;
+}
+
+.o-cell {
+  color: #e11d48;
+}
+
+.xo-restart {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.xo-restart:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 480px) {
+  .xo-card {
+    padding: 18px;
+  }
+
+  .xo-cell {
+    font-size: 32px;
+  }
+}

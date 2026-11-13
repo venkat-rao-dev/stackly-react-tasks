@@ -3,6 +3,7 @@ import UserCard from "./components/UserCard";
 import Task3 from "./components/Task3";
 import Task4 from "./components/Task4";
 import Task5 from "./components/Task5";
+import Task6 from "./components/Task6";
 
 function App() {
   const users = [
@@ -75,6 +76,9 @@ function App() {
 
       {/* Task 5 */}
       <Task5 />
+
+      {/* Task 6 */}
+      <Task6 />
     </div>
   );
 }
