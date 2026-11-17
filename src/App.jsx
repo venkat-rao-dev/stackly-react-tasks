@@ -4,6 +4,7 @@ import Task3 from "./components/Task3";
 import Task4 from "./components/Task4";
 import Task5 from "./components/Task5";
 import Task6 from "./components/Task6";
+import Task7 from "./components/Task7";
 
 function App() {
   const users = [
@@ -79,6 +80,9 @@ function App() {
 
       {/* Task 6 */}
       <Task6 />
+
+      {/* Task 7 */}
+      <Task7 />
     </div>
   );
 }
